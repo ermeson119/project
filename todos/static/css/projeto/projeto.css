@@ -1,0 +1,18 @@
+body{
+   background-color: rgb(188, 188, 189);
+}
+
+.nav{
+    box-shadow: 10px 5px 800px #070707;
+}
+
+.img:hover{
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 10px 20px 16px #070707;
+}
+
+
+.footer{
+    box-shadow: 0 0 500px #070707;
+}

@@ -7,14 +7,14 @@ def projetos(request):
     return render(request, 'todos/projetos.html')
 
 def linkedin(request):
-    linkedin = 'https://www.linkedin.com/in/ermeson-balbinot/'
-    return redirect(linkedin)
+    link_linkedin = 'https://www.linkedin.com/in/ermeson-balbinot/'
+    return redirect(link_linkedin)
 
 def instagram(request):
-    instagram = 'https://www.instagram.com/ermesonbalbinot/'
-    return redirect(instagram)
+    link_instagram = 'https://www.instagram.com/ermesonbalbinot/'
+    return redirect(link_instagram)
 
 def whatsapp(request):
-    whatsapp = 'https://wa.me/qr/OKMH27RO567BB1'
-    return redirect(whatsapp)
+    link_whatsapp = 'https://wa.me/qr/OKMH27RO567BB1'
+    return redirect(link_whatsapp)
 
