@@ -18,3 +18,6 @@ def whatsapp(request):
     link_whatsapp = 'https://wa.me/qr/OKMH27RO567BB1'
     return redirect(link_whatsapp)
 
+def skills(request):
+    return render(request, 'todos/skills.html')
+

@@ -8,54 +8,17 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-<nav class="nav navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
 
-  <div class="container-fluid">
-
-    <a class="navbar-brand" href="{% url 'home' %}">ERM<span class="text-success">ESON</span> <span
-        class="text-success">BALB</span>NOT</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{% url 'projetos' %}">Projetos</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Contato
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{% url 'whatsapp' %}" target="_blank">WhatsApp</a></li>
-            <li><a class="dropdown-item" href="{% url 'linkedin' %}" target="_blank">Linkedin</a></li>
-            <li><a class="dropdown-item" href="{% url 'instagram' %}" target="_blank">Instagram</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Currículo</a></li>
-          </ul>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</nav>
 
 
 <img src="{% static 'assents/eu.png' %}" class="rounded mx-auto d-block" alt="...">
 
 
-<main class="container">
+<main class="container main-sobre">
   <div class="container">
     <p class="h2 text-center">SOBRE MIM</p>
-    <p class="text-center">Profissional da área de Desenvolvimento Web. Experiência em contribuir no
+    <p class="text-center">Me chamo Ermeson Balbinot, Sou profissional da área de Desenvolvimento Web. Experiência em
+      contribuir no
       desenvolvimento de projetos, garantindo o alinhamento com as últimas tendências e
       ferramentas do setor, tais como aplicações de tecnologias. Vivência na utilização de
       tecnologias de programação como JavaScript , Java, Python, Django, Spring Boot, JPA, Html, CSS, Bootstrap
@@ -66,7 +29,56 @@
   </div>
 </main>
 
+<div class="container text-center wrap-main">
+  <div class="row align-items-end">
 
+    <div class="col informacao">
+      <div class="col wrap-border">
+        <img src="{% static 'assents/smile.png' %}" alt="">
+      </div>
+      <div class="col list-info">
+        <p>MEU NOME</p>
+        <p>Ermeson Balbinot</p>
+      </div>
+    </div>
+
+    <div class="col informacao">
+      <div class="col wrap-border">
+        <img src="{% static 'assents/mail.png' %}" alt="">
+
+      </div>
+      <div class="col list-info">
+        <p>E-MAIL</p>
+        <p>ermeson.balbinot10@gmail.com</p>
+      </div>
+    </div>
+
+
+    <div class="col informacao">
+      <div class="col wrap-border">
+        <img src="{% static 'assents/instagram.png' %}" alt="">
+
+      </div>
+      <div class="col list-info">
+        <p>INSTAGRAM</p>
+        <p>ermesonbalbinot</p>
+      </div>
+    </div>
+
+
+    <div class="col informacao">
+      <div class="col wrap-border">
+        <img src="{% static 'assents/phone.png' %}" alt="">
+      </div>
+      <div class="col list-info">
+        <p>TELEFONE</p>
+        <p>(63) 9 81201914</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
 
 
 
