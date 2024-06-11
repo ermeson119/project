@@ -17,9 +17,34 @@ body{
     margin-top: 80px;
 }
 
+.div-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-curriculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 700px;
+    flex-direction: column;
+}
+
+
+.borda-mg{
+    border: 1px solid #070707;
+    border-radius: 50% 50% 50%;
+    margin-top: 110px;
+}
+
+
+
+
 .main-sobre {
     margin-top: 80px;
 }
+
 
 .informacao{
     display: flex;
@@ -31,6 +56,7 @@ body{
 
 .list-info {
     margin-top: 16px;
+    
 }
 
 .wrap-border{
