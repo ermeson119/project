@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(188, 188, 189);
+    background-color: rgb(188, 189, 188);
 }
 
 .nav{
@@ -22,6 +22,20 @@ body{
     justify-content: space-between;
 }
 
+
+.button-end{
+    margin-top: 20px;
+    opacity: 0.8; 
+}
+
+.button-end:hover{
+    opacity: 0.6;
+}
+
+.button-end:active{
+    opacity: 0.9;
+}
+
 .area-curriculo{
     display: flex;
     justify-content: center;
@@ -32,17 +46,13 @@ body{
 }
 
 
+
 .borda-mg{
-    border: 1px solid #070707;
+    border: none;
     border-radius: 50% 50% 50%;
     margin-top: 110px;
-}
+    box-shadow: 30px 0 150px 0 #070707;   
 
-
-
-
-.main-sobre {
-    margin-top: 80px;
 }
 
 
