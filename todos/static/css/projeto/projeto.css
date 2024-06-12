@@ -1,9 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
 body{
    background-color: rgb(188, 188, 189);
 }
 
 .nav{
     box-shadow: 10px 5px 800px #070707;
+}
+
+.front{
+    margin-top: 50px;
+    font-weight: 700;
 }
 
 .main-projeto{
@@ -13,7 +25,7 @@ body{
 .img:hover{
     opacity: 0.8;
     border-radius: 10px;
-    box-shadow: 10px 20px 16px #070707;
+    box-shadow: 10px 5px 10px #070707;
 }
 
 

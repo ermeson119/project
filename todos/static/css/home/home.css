@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body{
@@ -21,6 +22,21 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.div-img img{
+    animation: flutuar 1s ease-in-out infinite alternate;
+    position: relative;
+}
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 20px;
+    }
+}
+
 
 
 .button-end{
