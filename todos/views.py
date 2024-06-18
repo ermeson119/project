@@ -9,6 +9,3 @@ def projetos(request):
 def skills(request):
     return render(request, 'todos/skills.html')
 
-def cursando(request):
-    return render(request, 'todos/cursando.html')
-
