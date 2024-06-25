@@ -28,6 +28,42 @@ body{
     box-shadow: 10px 5px 10px #070707;
 }
 
+.wrap-main{
+    margin-top: 80px;
+    display: flex;
+}
+
+
+
+
+.informacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.list-info {
+    margin-top: 16px;
+    
+}
+
+img{
+    width: 200px; 
+    height: 200px; 
+}
+
+.wrap-border{
+    width: 200px; 
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EEE;
+    border-radius: 50%;
+}
 
 .footer{
     box-shadow: 0 0 500px #070707;
